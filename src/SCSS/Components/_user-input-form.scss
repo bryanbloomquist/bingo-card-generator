@@ -1,0 +1,25 @@
+.user-input-form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: lightcyan;
+    max-width: 40rem;
+    padding: 2rem;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+    &__label {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        &--half {
+            width: calc(50% - 2rem);
+        }
+    }
+}
